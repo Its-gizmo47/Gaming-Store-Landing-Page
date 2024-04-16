@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    color: rgba(38, 177, 215, 0.5);
+}
+.circle{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+}
+.circle1{
+    top: 3%;
+    left: 70%;
+}
+.circle2{
+    top: 58%;
+    left: 12%;
+}
+main{
+    min-height: 100vh;
+    background:linear-gradient(to right top,  #65dfc9, #6cdbeb) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glass{
+    min-height: 80vh;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.6);
+    /* background: linear-gradient( 
+        to right bottom,
+        rgba (255, 255, 255, 0.7),
+        rgba (255, 255, 255, 0.3)
+    ); */
+    border-radius: 2rem;
+    display: flex;
+    z-index: 2;
+    backdrop-filter: blur(1rem);
+
+}
+.box1{
+    height: 80vh;
+    width: 30%;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box1-up{
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    color: rgba(11, 49, 173, 0.6);
+}
+.img-box{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 0.5rem;
+    background-image: url(../img/logo.PNG);
+    background-size: cover;
+    background-position: center;
+}
+.box1-middle{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: rgba(38, 177, 215, 0.5);
+}
+.box1-middle a:hover{
+    color: rgba(38, 177, 215, 0.8);
+}
+.box1-down{
+    width: 80%;
+    height: 15%;
+    background-color: #68e3cd ;
+    border-radius: 1.5rem;
+}
+.box1-down-left{
+    width: 65%;
+    height: 100%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box1-down-right{
+    width: 35%;
+    height: 100%;
+}
+.box2{
+    height: 80vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.box2-top{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: rgba(11, 49, 173, 0.7);
+}
+.bar{
+    height: 4vh;
+    width: 16vw;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+    display: flex;
+}
+input{
+    background: rgba(255, 255, 255, 0);
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    border-radius: 2rem;
+    border: 0 ;
+    height: 100%;
+    width: 85%;
+}
+button{
+    height: 100%;
+    width: 15%;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 2rem;
+    border: 0;
+    color: rgba(158, 158, 158, 0.7);
+}
+button:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+button:active{
+    background: rgba(255, 255, 255, 0.8);
+}
+.box2-bottom{
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.box2-bottom-box{
+    width: 100%;
+    height: 28%;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 0.7rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.box2-left{
+    height: 90px;
+    width: 90px;
+    background: rgb(155, 255, 255);
+    border-radius: 1rem;
+    margin-right: 3rem;
+    margin-left: 1rem;
+    background-size: cover;
+    background-position: center;
+}
+.game1{
+    background-image: url(../img/game1.PNG);
+}
+.game2{
+    background-image: url(../img/game2.PNG);
+}
+.game3{
+    background-image: url(../img/game3.PNG);
+}
+.box2-right{
+    height: 70%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.percentage{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2-bottom .bar{
+    background-color: rgba(195, 195, 195, 0.6);
+    height: 2.5vh;
+}
+.bar-top{
+    width: 60%;
+    height: 100%;
+    background-color: rgba(50, 161, 152, 0.7);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.percent40{
+    width: 40%;
+}
+.percent75{
+    width: 75%;
+}
